@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "Jeffamap",
+  "version": "1.0.0.0",
+
+  "description": "Look up address on Google Maps",
+
+  "author": "Jeffrey M. Davis",
+  "permissions": ["contextMenus", "tabs", "https://maps.google.com/"],
+
+  "background": {
+    "scripts": ["background.js"]
+  }
+}
